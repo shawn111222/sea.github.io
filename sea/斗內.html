@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>支持斗內</title>
+	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<!-- 相片輪播元件 -->
+<div id="photoCarousel" class="carousel slide vertical" data-ride="carousel">
+  <!-- Indicators 瀏覽控制 --> 
+  <ol class="carousel-indicators" style="margin-top:50px">
+    <li data-target="#photoCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#photoCarousel" data-slide-to="1"></li>
+    <li data-target="#photoCarousel" data-slide-to="2"></li>
+  </ol>
+  
+  <!-- 建立相片清單 -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="1.jpeg">
+    </div>
+    <div class="item">
+      <img src="2.jpg">
+    </div>
+    <div class="item">
+      <img src="3.jpg">
+    </div>
+  </div>
+  <!-- 上一張/下一張控制 --> 
+  <a class="left carousel-control" href="#photoCarousel" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left"></span></a>
+  <a class="right carousel-control" href="#photoCarousel" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right"></span></a>
+</div>
+
+<!-- 巡覽列, navbar-default 表示白底黑字樣式 -->
+<nav class="navbar navbar-default">
+  <!-- 選單表頭區塊 -->
+  <div class="navbar-header">
+    <a href="首頁.html" class="navbar-brand">魚我悠游</a>
+    <!-- 按鈕 -->
+    <button type="button" class="navbar-toggle" 
+            data-toggle="collapse" data-target="#mynav">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+  </div>
+  
+  <!-- 選單 -->
+  <div id="mynav" class="navbar-collapse collapse">
+    <ul class="navbar-nav nav">
+      <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">  
+            <span class="glyphicon glyphicon-home"></span> 你好!海洋<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+           <li><a href="https://churaumi.okinawa/tc/fishbook/"><span class="glyphicon glyphicon-plane"> 海洋生物</a></li>
+           <li><a href="#"><span class="glyphicon glyphicon-user"> 團體介紹</a></li>
+		  </ul>
+      </li>
+      <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">  
+            <span class="glyphicon glyphicon-star"></span> 潮浪郵差<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+           <li><a href="https://forms.gle/m6ACED4jkKxkxTbt5"><span class="glyphicon glyphicon-envelope"> 意見反饋</a></li>
+           <li><a href="斗內.html"><span class="glyphicon glyphicon-credit-card"> 支持斗內</a></li>
+		  </ul>
+      </li>
+      <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">  
+            <span class="glyphicon glyphicon-tags"></span> 水底相遇<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+           <li><a href="捕魚達人/捕魚達人.html"><span class="glyphicon glyphicon-send"> 補魚達人-遊戲</a></li>
+           <li><a href="書籍.html"><span class="glyphicon glyphicon-book"> 海生書籍-購物</a></li>
+		  </ul>
+      </li>
+      <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">  
+            <span class="glyphicon glyphicon-info-sign"></span> 漫遊深海<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+           <li><a href="議題.html"><span class="glyphicon glyphicon-bookmark"> 生態永續-議題</a></li>
+           <li><a href="時事.html"><span class="glyphicon glyphicon-time"> 學術探討-時事</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+      <div class="col-xs-4" align="center">
+        <img src="4.jfif" alt="Ducks"
+             class="img-responsive img-rounded" >
+        <div class="caption" align="center">
+          <h3>擴大海洋保護區</h3>
+        </div>
+      </div>
+      <div class="col-xs-4" align="center">
+        <img src="5.jfif" alt="Liberty"
+             class="img-responsive img-rounded" >
+        <div class="caption" align="center">
+          <h3>永續遠洋漁業</h3>
+        </div>
+      </div>
+      <div class="col-xs-4" align="center">
+        <img src="6.jfif" alt="Sakura"
+             class="img-responsive img-rounded" >
+        <div class="caption" align="center">
+          <h3>全球海洋保育</h3>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">		
+    <div class="col-xs-12">
+       <!img src="media/maintopic2.jpg" class="left-block img-responsive">
+	 </div>
+	 </div>
+	 <div class="row">		
+	 <div align="center">
+        <TABLE CELLPADDING=2 border=4 BORDERCOLORLIGHT="#FFD0D0" BORDERCOLORDARK="#A425B1" align="center">
+			<td COLSPAN=6 align = center>支持斗內</td>
+			<TR>
+			<td><input type="radio" name="location" value="bank">轉帳<br><input type="radio" name="location" value="card">信用卡<br></td>
+			<TH>帳號</TH>
+			<td><input type="text" id="10" value="0" style="width: 100px;"></td>
+			<TH>金額</TH>
+			<TD></TD><td><input type="number" id="11" value="0" style="width: 100px;">元</td></TR>
+		</table>
+    </div>
+    
+  </div>        	
+</div>        
+	<div align="center">
+	    <p align="center">小計 <span id="subtotal">0</span>元</p>
+		<button id="order">捐款</button>
+      <button id="cancel">清除</button>
+	</div>  
+      <script type="text/javascript">
+          var subtotal=document.getElementById("subtotal");
+          var rice1=document.getElementById("11");
+          var rice1counts=0, food1counts=0, money=0;
+          // 用匿名函式設定 '清除' 鈕的動作
+          document.getElementById("cancel").onclick = 
+            function (){
+                rice1.value=0;
+                rice1counts=0;
+            };
+          
+          // 用匿名函式設定 '訂購' 鈕的動作
+          var btnOrder =document.getElementById("order").onclick=
+            function (){
+                if(money==0) return;    // 金額為 0 時不處理
+                var msg="";
+                if(rice1counts > 0) msg += "感謝您斗內 "  + rice1counts +  "元\n";
+                alert(msg);
+            };
+         
+         // 將八個輸入欄位的change事件處理器都設為 calc() 函式
+         rice1.addEventListener('change', calc);		 
+
+        function calc(e) {
+          console.log(this);     // 在主控台顯示 this 物件
+          
+          var counts = parseInt(this.value); // 取得份數
+          
+          if (this==rice1) {  // 若是捐款的欄位
+            if( counts< 0)    // 若份數為負數
+              this.value=rice1counts;   // 將欄位值回負為舊值
+            else
+              rice1counts=counts;
+          }
+
+          money = rice1counts  // 計算金額
+          subtotal.innerHTML = money;         // 顯示金額
+        }        
+      </script>
+    
+	<footer class="col-xs-12 text-info">
+	  <p>underthesea 深海漫遊   100 台北市中正區光明路1號325樓　  TEL: 02-1234-5678<br />
+      Copyright  ©  PhotoTour. All rights reserved.<p></footer>
+	
+  
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>魚我悠游</title>
+	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<!-- 相片輪播元件 -->
+<div id="photoCarousel" class="carousel slide vertical" data-ride="carousel">
+  <!-- Indicators 瀏覽控制 --> 
+  <ol class="carousel-indicators" style="margin-top:50px">
+    <li data-target="#photoCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#photoCarousel" data-slide-to="1"></li>
+    <li data-target="#photoCarousel" data-slide-to="2"></li>
+  </ol>
+  
+  <!-- 建立相片清單 -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="1.jpeg">
+    </div>
+    <div class="item">
+      <img src="2.jpg">
+    </div>
+    <div class="item">
+      <img src="3.jpg">
+    </div>
+  </div>
+  <!-- 上一張/下一張控制 --> 
+  <a class="left carousel-control" href="#photoCarousel" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left"></span></a>
+  <a class="right carousel-control" href="#photoCarousel" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right"></span></a>
+</div>
+
+<!-- 巡覽列, navbar-default 表示白底黑字樣式 -->
+<nav class="navbar navbar-default">
+  <!-- 選單表頭區塊 -->
+  <div class="navbar-header">
+    <a href="首頁.html" class="navbar-brand">魚我悠游</a>
+    <!-- 按鈕 -->
+    <button type="button" class="navbar-toggle" 
+            data-toggle="collapse" data-target="#mynav">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+  </div>
+  
+  <!-- 選單 -->
+  <div id="mynav" class="navbar-collapse collapse">
+    <ul class="navbar-nav nav">
+      <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">  
+            <span class="glyphicon glyphicon-home"></span> 你好!海洋<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+           <li><a href="https://churaumi.okinawa/tc/fishbook/"><span class="glyphicon glyphicon-plane"> 海洋生物</a></li>
+           <li><a href="#"><span class="glyphicon glyphicon-user"> 團體介紹</a></li>
+		  </ul>
+      </li>
+      <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">  
+            <span class="glyphicon glyphicon-star"></span> 潮浪郵差<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+           <li><a href="https://forms.gle/m6ACED4jkKxkxTbt5"><span class="glyphicon glyphicon-envelope"> 意見反饋</a></li>
+           <li><a href="斗內.html"><span class="glyphicon glyphicon-credit-card"> 支持斗內</a></li>
+		  </ul>
+      </li>
+      <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">  
+            <span class="glyphicon glyphicon-tags"></span> 水底相遇<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+           <li><a href="捕魚達人/捕魚達人.html"><span class="glyphicon glyphicon-send"> 補魚達人-遊戲</a></li>
+           <li><a href="書籍.html"><span class="glyphicon glyphicon-book"> 海生書籍-購物</a></li>
+		  </ul>
+      </li>
+      <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">  
+            <span class="glyphicon glyphicon-info-sign"></span> 漫遊深海<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+           <li><a href="議題.html"><span class="glyphicon glyphicon-bookmark"> 生態永續-議題</a></li>
+           <li><a href="時事.html"><span class="glyphicon glyphicon-time"> 學術探討-時事</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+      <div class="col-xs-4" align="center">
+        <img src="4.jfif" alt="Ducks"
+             class="img-responsive img-rounded" >
+        <div class="caption" align="center">
+          <h3>擴大海洋保護區</h3>
+        </div>
+      </div>
+      <div class="col-xs-4" align="center">
+        <img src="5.jfif" alt="Liberty"
+             class="img-responsive img-rounded" >
+        <div class="caption" align="center">
+          <h3>永續遠洋漁業</h3>
+        </div>
+      </div>
+      <div class="col-xs-4" align="center">
+        <img src="6.jfif" alt="Sakura"
+             class="img-responsive img-rounded" >
+        <div class="caption" align="center">
+          <h3>全球海洋保育</h3>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">		
+    <div class="col-xs-12">
+       <!img src="media/maintopic2.jpg" class="left-block img-responsive">
+	 </div>
+	 </div>
+	 <div class="row">		
+	 <div align="center">
+         <p><font size="5">您可有機會潛進大海，欣賞美麗的海洋生態嗎？</font></p>
+		 <p><font size="5">澄藍的海下面，覆蓋著地球80%的生物</font></p>
+		 <p><font size="5">海浪推動水流，供給氧氣、營養與能量，平衡氣候，孕育地球的生命。</font></p>
+		 <p><font size="5">海洋處境岌岌可危。</font></p>
+		 <p><font size="5">我們苛索海洋太多了，破壞性捕撈、污染及氣候變遷</font></p>
+		 <p><font size="5">對獨特的海洋生態構成嚴重威脅</font></p>
+		 <p><font size="5">可幸的是，只要我們同心協力</font></p>
+		 <p><font size="5">就能保護海洋的蔚藍，守護所有仰賴海洋為生的生命與人們</font></p>
+		 <p><font size="5">關心海洋保育的群眾，一同發起全球行動</font></p>
+		 <p><font size="5">設立海洋保護區，停止過度捕撈</font></p>
+		 <p><font size="5">讓漁業資源得以永續、海洋生生不息</font></p>
+		 <p><font size="5">邀請你加入守護海洋之旅，逆流而上應對藍色汪洋危與機！</font></p>
+    </div>
+    
+  </div>        	
+</div>        
+	
+    
+	<footer class="col-xs-12 text-info">
+	  <p>underthesea 深海漫遊   100 台北市中正區光明路1號325樓　  TEL: 02-1234-5678<br />
+      Copyright  ©  PhotoTour. All rights reserved.<p></footer>
+	
+  
+</body>
+
+</html>

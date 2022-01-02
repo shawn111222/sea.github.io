@@ -1,0 +1,211 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生態永續</title>
+	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <!--插件基本框架-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/Swiper/4.5.0/css/swiper.min.css" />
+
+    <!--页面布局样式-->
+    <link rel="stylesheet" type="text/css" href="statics/css/style.css" />
+</head>
+
+<body>
+<!-- 相片輪播元件 -->
+<div id="photoCarousel" class="carousel slide vertical" data-ride="carousel">
+  <!-- Indicators 瀏覽控制 --> 
+  <ol class="carousel-indicators" style="margin-top:50px">
+    <li data-target="#photoCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#photoCarousel" data-slide-to="1"></li>
+    <li data-target="#photoCarousel" data-slide-to="2"></li>
+  </ol>
+  
+  <!-- 建立相片清單 -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="1.jpeg">
+    </div>
+    <div class="item">
+      <img src="2.jpg">
+    </div>
+    <div class="item">
+      <img src="3.jpg">
+    </div>
+  </div>
+  <!-- 上一張/下一張控制 --> 
+  <a class="left carousel-control" href="#photoCarousel" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left"></span></a>
+  <a class="right carousel-control" href="#photoCarousel" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right"></span></a>
+</div>
+
+<!-- 巡覽列, navbar-default 表示白底黑字樣式 -->
+<nav class="navbar navbar-default">
+  <!-- 選單表頭區塊 -->
+  <div class="navbar-header">
+    <a href="首頁.html" class="navbar-brand">魚我悠游</a>
+    <!-- 按鈕 -->
+    <button type="button" class="navbar-toggle" 
+            data-toggle="collapse" data-target="#mynav">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+  </div>
+  
+  <!-- 選單 -->
+  <div id="mynav" class="navbar-collapse collapse">
+    <ul class="navbar-nav nav">
+      <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">  
+            <span class="glyphicon glyphicon-home"></span> 你好!海洋<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+           <li><a href="https://churaumi.okinawa/tc/fishbook/"><span class="glyphicon glyphicon-plane"> 海洋生物</a></li>
+           <li><a href="#"><span class="glyphicon glyphicon-user"> 團體介紹</a></li>
+		  </ul>
+      </li>
+      <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">  
+            <span class="glyphicon glyphicon-star"></span> 潮浪郵差<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+           <li><a href="https://forms.gle/m6ACED4jkKxkxTbt5"><span class="glyphicon glyphicon-envelope"> 意見反饋</a></li>
+           <li><a href="斗內.html"><span class="glyphicon glyphicon-credit-card"> 支持斗內</a></li>
+		  </ul>
+      </li>
+      <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">  
+            <span class="glyphicon glyphicon-tags"></span> 水底相遇<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+           <li><a href="捕魚達人/捕魚達人.html"><span class="glyphicon glyphicon-send"> 補魚達人-遊戲</a></li>
+           <li><a href="書籍.html"><span class="glyphicon glyphicon-book"> 海生書籍-購物</a></li>
+		  </ul>
+      </li>
+      <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">  
+            <span class="glyphicon glyphicon-info-sign"></span> 漫遊深海<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+           <li><a href="議題.html"><span class="glyphicon glyphicon-bookmark"> 生態永續-議題</a></li>
+           <li><a href="時事.html"><span class="glyphicon glyphicon-time"> 學術探討-時事</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+      
+ <div class="swiper-container-solution">
+        <div class="selected-solution">
+            <div>
+                <div class="swiper-container">
+
+                    <div class="solution-cardlist swiper-wrapper">
+						<div class="col-sm-4 swiper-slide">
+                            <div class="solution-card">
+                                <img src="L.jpg" width="100%">
+                                <h3>海龜研究在台灣</h3>
+                                <p>台灣海域可見到五種海龜，分別為綠蠵龜(Chelonia mydas)，赤蠵龜(Caretta caretta)，玳瑁(Eretmochelys imbricate)，欖蠵龜(Lepidochelys olivacea)及革龜(Dermochelys coriacea)，這五種海龜中，僅有綠蠵龜會上岸產卵...</p>
+                                <span>
+                                    <a href="台灣海域可見到五種海龜，分別為綠蠵龜(Chelonia mydas)，赤蠵龜(Caretta caretta)，玳瑁(Eretmochelys imbricate)，欖蠵龜(Lepidochelys olivacea)及革龜(Dermochelys coriacea)，這五種海龜中，僅有綠蠵龜會上岸產卵"><span class="arrow-more">了解详情</span><span class="arrow-f"></span></a>
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 swiper-slide">
+                            <div class="solution-card">
+                                <img src="M.jpg" width="100%">
+                                <h3>即使碳排放降到零，海平面仍會持續上升數百年</h3>
+                                <p>雖然巴黎協議的目標達成後，海平面仍然會上升，但達不到目標的後果更嚴重。美國在11月4日正式啟動退出巴黎協議（Paris Agreement）的程序，這項2016年開始執行的國際協議，它的目標是維持溫室氣體的排放量...</p>
+                                <span>
+                                    <a href="https://www.natgeomedia.com/environment/article/content-9834.html"><span class="arrow-more">了解详情</span><span class="arrow-f"></span></a>
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 swiper-slide">
+                            <div class="solution-card">
+                                <img src="N.jpg" width="100%">
+                                <h3>因疫情而安靜的海洋可望讓鯨魚「紓壓」並改善健康</h3>
+                                <p>這波疫情讓蒙特里灣（Monterey Bay）變安靜了。快艇、遊艇和賞鯨之旅都沒了，關閉的餐廳和碼頭阻絕了商業漁船，連遊輪旅遊也中斷了...</p>
+                                <span>
+                                    <a href="https://www.natgeomedia.com/environment/article/content-11804.html"><span class="arrow-more">了解详情</span><span class="arrow-f"></span></a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 swiper-slide">
+                            <div class="solution-card">
+                                <img src="O.jpg" width="100%">
+                                <h3>台灣是海洋生物多樣性之島</h3>
+                                <p>十六世紀初，葡萄牙航海家首次發現台灣時，有感於寶島陸地上的風景秀麗動人，不禁發出Ilha formosa（美麗寶島）的讚嘆。但老天真正留給這塊土地上的人民最可貴的自然襲產，其實是這裡異常豐富的生物多樣性...</p>
+                                <span>
+                                    <a href="https://www.natgeomedia.com/environment/article/content-5094.html"><span class="arrow-more">了解详情</span><span class="arrow-f"></span></a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 swiper-slide">
+                            <div class="solution-card">
+                                <img src="P.jpg" width="100%">
+                                <h3>水母是食物鏈的死結嗎？</h3>
+                                <p>參觀水族館時，人們總是驚嘆於水母超脫塵世的美麗。但是對於一些生態學家們來說，水母是一種非常討厭的生物──牠們體內僅有極少的營養物質可以在食物鏈中循環，且不斷繁衍、種群數量不斷增加，如今已被視作一種生態學崩潰的現象...</p>
+                                <span>
+                                    <a href="https://www.natgeomedia.com/science/article/content-7029.html"><span class="arrow-more">了解详情</span><span class="arrow-f"></span></a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 swiper-slide">
+                            <div class="solution-card">
+                                <img src="Q.jpg" width="100%">
+                                <h3>深海紅珊瑚 台灣重新界定為3個屬</h3>
+                                <p>許多人對淺海繽紛多樣的珊瑚世界深深著迷；再往深海20米以下，每年生長不到1.5公釐，生長速度相當緩慢的深海珊瑚，更是讓人趨之若鶩。目前已知全球約有六千多種珊瑚，其中一千多種是「淺海珊瑚」，五千多種是「深海珊瑚」...</p>
+                                <span>
+                                    <a href="https://www.natgeomedia.com/environment/article/content-4455.html"><span class="arrow-more">了解详情</span><span class="arrow-f"></span></a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination solution-pagination"></div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/Swiper/4.5.0/js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        $(function () {
+            new Swiper(".swiper-container", {
+
+                //默认功能属性
+                speed: 250,
+                slidesPerView: 3,
+                spaceBetween: 0,
+                slidesPerGroup: 3,
+                loop: true,
+                autoplay: true,
+
+                //分页索引
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true
+                },
+
+                //分页按钮
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev"
+                }
+
+            });
+        })
+    </script>
+
+	<footer class="col-xs-12 text-info">
+	  <p>underthesea 深海漫遊   100 台北市中正區光明路1號325樓　  TEL: 02-1234-5678<br />
+      Copyright  ©  PhotoTour. All rights reserved.<p></footer>
+	
+  
+</body>
+
+</html>
